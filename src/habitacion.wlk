@@ -2,8 +2,10 @@ import Personas.*
 
 class Habitacion{
 	var ocupantes	
-	var nivelDeConfort
+	var nivelDeConfort //es un metodo
 	
+	//pasar el nivel de confort a una persona
+	// pasar el entrar a la persona
 	method nivelDeConfort(unaPersona) = 10 + self.nivelQueAporta(unaPersona)
 	method nivelQueAporta(unaPersona)
 	method ingresarPersona(unaPersona){
